@@ -22,7 +22,7 @@ public class ProductController {
 	
 	@PostMapping("/createProduct")
 	public Product addProduct(@RequestBody Product product) {
-		System.out.println("hello world");
+		System.out.println("hello world.......");
 		return productRepository.save(product); 
 	}
 	
